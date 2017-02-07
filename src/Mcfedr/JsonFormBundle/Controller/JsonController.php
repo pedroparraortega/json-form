@@ -5,7 +5,7 @@ namespace Mcfedr\JsonFormBundle\Controller;
 use Mcfedr\JsonFormBundle\Exception\InvalidJsonHttpException;
 use Mcfedr\JsonFormBundle\Exception\MissingFormHttpException;
 use Mcfedr\JsonFormBundle\Exception\InvalidFormHttpException;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use FOS\RestBundle\Controller\FOSRestController as Controller;
 use Symfony\Component\Form\Form;
 use Symfony\Component\HttpFoundation\Request;
 
